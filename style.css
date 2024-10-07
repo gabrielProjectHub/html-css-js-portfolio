@@ -38,7 +38,9 @@ nav,
 nav{
   justify-content: space-around;
   align-items:center;
-  height: 17vh;
+  height: 15vh;
+  
+
 }
 .nav-links{
   gap:2rem;
@@ -83,6 +85,7 @@ a:hover{
 .hamburger-menu {
   position: relative;
   display: inline-block;
+  
  
 }
 
@@ -178,6 +181,7 @@ section{
   height:75vh;
   position: absolute;
  
+ 
 }
 
 .section__pic-container {
@@ -229,8 +233,6 @@ section{
   margin-top: 1rem;
   gap: 1rem;
 
-  
-  
 }
 
 /* icons */
@@ -302,22 +304,25 @@ margin-top: 1rem;
 .about{
   position: relative;
  
+ 
 }
 
 .about-containers{
   gap:2rem;
   margin-bottom: 2rem;
   margin-top:2rem;
+  
 }
 
 .about-details-container{
   justify-content: center;
   flex-direction:column;
+  
 }
 
 .about-containers{
   /* border-style: solid; */
-  display: flex;
+  display: flex;  
   /* border-color: hsl(89, 43%, 51%); */
 }
 
@@ -473,12 +478,21 @@ cursor:default;
 }
 
 
-/* #particles-js
+#particles-js
 {
+position: flex;
+height:75vh;
+align-items: center;
+justify-content: center;
 
 
-}  */
+} 
 
+#parent-div
+{
+position: flex;
+
+} 
 /* FOOTER */
 
 footer{
@@ -666,6 +680,7 @@ section{
   justify-content: center;
   gap:5rem;
   height:75vh;
+  display:absolute;
  
 }
 

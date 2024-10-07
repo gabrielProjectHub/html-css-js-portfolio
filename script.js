@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 function toggleMenu(){
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
@@ -45,7 +45,7 @@ function toggleMenu(){
 // }
 
 // // Example usage (attach to a button click event)
-=======
+
 function toggleMenu(){
     const menu = document.querySelector(".menu-links");
     const icon = document.querySelector(".hamburger-icon");
@@ -89,6 +89,5 @@ function toggleMenu(){
 //     console.log("After toggle - Icon classes:", icon.classList.toString());
 // }
 
-// // Example usage (attach to a button click event)
->>>>>>> b6ddb17affb99ceabca84511011859741ef74f71
+// // Example usage (attach to a button click event)b6ddb17affb99ceabca84511011859741ef74f71
 // document.querySelector(".hamburger-icon").addEventListener("click", toggleMenu);
